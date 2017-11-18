@@ -189,6 +189,10 @@ prism_plugin:
   auto_detect: false
   tab_replace:
 ```
+并且要像这样添加代码:
+<p>
+```
+</p>
 重新生成静态文件这样就有代码高亮了~
 
 ps：欢迎反馈高亮代码样式问题
