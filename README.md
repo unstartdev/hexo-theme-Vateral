@@ -181,18 +181,17 @@ prism_plugin:
   theme: 'default'	# 高亮皮肤 默认为default 可选有default,coy,dark,funky,okaidia,solarizedlight,tomorrow,twiligh
   line_number: false    # default false 是否显示行数
  ```
- 要注意要在_config.yml中增加：
+ 要注意要在_config.yml中修改：
  ``` 
  highlight:
   enable: false
-  line_number: false
-  auto_detect: false
-  tab_replace:
+#  line_number: false
+#  auto_detect: false
+#  tab_replace:
 ```
 并且要像这样添加代码:
 ```
 ```html
-```
 ```
 重新生成静态文件这样就有代码高亮了~
 
