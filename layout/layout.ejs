@@ -7,7 +7,7 @@
   <meta name="keywords" content="<%=theme.seo.keywords%>">
   <meta name="description" content="<%=theme.seo.description%>">
   <% }%>
-  <title><%=config.title%></title>
+  <title><% if (page.title){ %><%= title %> @ <% } %><%= config.title %></title>
   <% if (theme.stylesheets !== undefined && theme.stylesheets.length > 0) { %>
     <!-- stylesheets list from config.yml -->
     <% theme.stylesheets.forEach(function(url) { %>
